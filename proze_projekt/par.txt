@@ -1,0 +1,44 @@
+# Plik parametryczny gry.
+# Komentarz zaczyna sie od znaku # i obowiazuje do konca linii.
+# Parametry sa zapisane w postaci par {nazwa}={wartosc}.
+# Plik nalezy wczytac do obiektu java.util.Properties metoda load() tej klasy
+# wg wzoru w programie generatora plikow parametrycznych.
+#
+nazwaGry=Shooter [pin: 7367, autorzy: Kajzer Traczyk]
+# Nazwa gry powinna wyswietlac sie gdzies na planszy albo w tytule okna.
+#
+# 1. Poziomy gry i pliki opisujace poziom gry. Zawartosc pliku opisujacego poziom
+#    trzeba opracowac i przygotowac samodzielnie wg metody stosowanej w tym pliku.
+#
+liczbaPoziomow=5
+# dodatnia liczba calkowita
+nazwaBazowaPlikuZOpisemPoziomu=level
+numeracjaPoziomowZaczynaSieOd=1
+# liczba 0 lub 1
+rozszerzeniePlikuZOpisemPoziomu=gra
+#
+# 2. Stopnie trudnosci
+#
+liczbaStopniTrudnosci=2
+# dodatnia liczba calkowita
+zmianaStopniaTrudnosci=44
+# liczba calkowita w zakresie 20..45 - o tyle procent zwiekszaja sie i/lub zmniejszaja
+# sie parametry wplywajace na stopien trudnosci np. predkosc, czas, liczba punktow do zdobycia itp.
+#
+# 3. Rozne wymiary
+#
+poczatkowaSzerokoscPlanszy=449
+poczatkowaWysokoscPlanszy=633
+poczatkowaSzerokoscObiektuGryJakoProcentPoczatkowejSzerokosciPlanszy=7.6383986
+#
+# 4. Rysowanie tla i obiektow, do ktorych sie strzela
+#
+tlo=plikGraficzny
+plikTla=plik.jpeg
+# w ogolnosci tu mozna wstawic (wzgledna!) sciezke do wlasnego pliku tla
+obiektyGry=figuryGeometryczne
+figuraObiektuGry=kolka
+# jedno z: kwadraty prostokaty trojkaty kolka
+#
+# Jesli uwazasz, ze warto dodac jeszcze jakies parametry dodaj je w dodatkowym
+# pliku konfiguracyjnym, obslugiwanym niezaleznie od tego pliku parametrycznego.

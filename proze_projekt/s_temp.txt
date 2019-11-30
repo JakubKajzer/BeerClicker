@@ -1,0 +1,2 @@
+liczbaElementow=3
+maksymalnaPredkoscObiektow=1

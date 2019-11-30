@@ -1,0 +1,5 @@
+#wpisz pin gry twojego zespo³u ze strony http://ztv.ire.pw.edu.pl/proze/projekty/zespo%C5%82y.html
+pin=7367
+
+#wpisz nazwiska autorów projektu
+autorzy=Kajzer Traczyk
