@@ -8,4 +8,4 @@ The game window is fully scalable, but without fullscreen.
 
 Game stores highscores.
 
-Havee fun :)
+##### Have fun :)
